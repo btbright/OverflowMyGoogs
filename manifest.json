@@ -6,13 +6,6 @@
   "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar between certain hours",
 	"permissions": ["background"],
   "background": {
-    "scripts": ["scripts/ce.js","scripts/main.js"]
-  },
-	"content_scripts": [
-	    {
-	      "matches": ["<all_urls>"],
-	      "js": ["scripts/jquery.js", "scripts/jquery-plugins.js","scripts/bg.js"],
-				"run_at" : "document_start"
-	    }
-	  ]
+    "scripts": ["scripts/main.js"]
+  }
 }
