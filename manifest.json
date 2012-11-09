@@ -2,9 +2,12 @@
   "name": "OverflowMyGoogle",
   "version": "1.0",
   "manifest_version": 2,
-  "omnibox": { "keyword" : "aaron" },
+  "omnibox": { "keyword" : "so" },
   "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar between certain hours",
-	"permissions": [],
+	"permissions": ["background"],
+  "background": {
+    "scripts": ["scripts/ce.js","scripts/main.js"]
+  },
 	"content_scripts": [
 	    {
 	      "matches": ["<all_urls>"],
