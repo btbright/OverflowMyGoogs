@@ -1,4 +1,4 @@
 OverflowMyGoogle
 ================
 
-Prepends "site:stackoverflow.com " to all google searches from the omnibar between certain hours
+Prepends "site:stackoverflow.com " to all google searches from the omnibar when you use the keyword "so "
