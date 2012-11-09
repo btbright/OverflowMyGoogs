@@ -1,6 +1,8 @@
 {
   "name": "OverflowMyGoogle",
   "version": "1.0",
+  "manifest_version": 2,
+  "omnibox": { "keyword" : "aaron" },
   "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar between certain hours",
 	"permissions": [],
 	"content_scripts": [
