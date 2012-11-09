@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 2,
   "omnibox": { "keyword" : "so" },
-  "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar between certain hours",
+  "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar when you use the keyword 'so '",
 	"permissions": ["background"],
   "background": {
     "scripts": ["scripts/main.js"]
