@@ -1,10 +1,9 @@
 {
   "name": "OverflowMyGoogs",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "omnibox": { "keyword" : "so" },
   "description": "Prepends 'site:stackoverflow.com ' to all google searches from the omnibar when you use the keyword 'so '",
-	"permissions": ["background"],
   "background": {
     "scripts": ["scripts/main.js"]
   },
